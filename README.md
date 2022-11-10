@@ -73,7 +73,7 @@ Selecting and recipe will be based on the `href='#[DATA.ID]'`. Then, using the `
 
 ### Pagination Funtion
 
-![Pagination](https://github.com/AnhLamTruong/Forkify-Application/blob/master/flow-chart/forkify-flowchart-part-1-pagination.jpg)
+![Pagination](https://github.com/AnhLamTruong/Forkify-Application/blob/master/flow-chart/forkify-flowchart-part-1-pagination.png)
 
 - **Model** `getSearchResultsPage()` function will return the array of 10 elements of the search results base one the page passing in (ex: page 2 will contain elements 10-19)
 
