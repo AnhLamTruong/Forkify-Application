@@ -148,6 +148,10 @@ const controlAddRecipe = async function (newRecipe) {
   //Upload new recipe
 };
 
+const newFeature = function () {
+  console.log('Welcome to the new application');
+};
+
 ////////////////////////////////
 //EVENT LISTENERS RUNNING INSIDE THE VIEW CONTROL
 ////////////////////////////////
@@ -159,5 +163,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature();
 };
 init();
