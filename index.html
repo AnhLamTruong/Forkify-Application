@@ -140,7 +140,10 @@
               <use href="src/img/icons.svg#icon-smile"></use>
             </svg>
           </div>
-          <p>Start by searching for a recipe or an ingredient. Have fun!</p>
+          <p>
+            Start by searching for a recipe or an ingredient, starting by
+            searching pizza. Have fun!
+          </p>
         </div>
 
         <!-- <div class="error">
@@ -161,17 +164,53 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input value="TEST12345" required name="title" type="text" />
+          <input
+            value=""
+            required
+            name="title"
+            type="text"
+            placeholder="Format: 'Your Food Title'"
+          />
           <label>URL</label>
-          <input value="TEST12345" required name="sourceUrl" type="text" />
+          <input
+            value=""
+            required
+            name="sourceUrl"
+            type="text"
+            placeholder="Format: 'Link Direct to Source'"
+          />
           <label>Image URL</label>
-          <input value="TEST12345" required name="image" type="text" />
+          <input
+            value=""
+            required
+            name="image"
+            type="text"
+            placeholder="Format: 'Img-URL'"
+          />
           <label>Publisher</label>
-          <input value="TEST12345" required name="publisher" type="text" />
+          <input
+            value=""
+            required
+            name="publisher"
+            type="text"
+            placeholder="Format: 'Alice'"
+          />
           <label>Prep time</label>
-          <input value="23" required name="cookingTime" type="number" />
+          <input
+            value=""
+            required
+            name="cookingTime"
+            type="number"
+            placeholder="Format: '120'"
+          />
           <label>Servings</label>
-          <input value="23" required name="servings" type="number" />
+          <input
+            value=""
+            required
+            name="servings"
+            type="number"
+            placeholder="Format: '12'"
+          />
         </div>
 
         <div class="upload__column">
@@ -186,7 +225,6 @@
           />
           <label>Ingredient 2</label>
           <input
-            value="1,,Avocado"
             type="text"
             name="ingredient-2"
             placeholder="Format: 'Quantity,Unit,Description'"
